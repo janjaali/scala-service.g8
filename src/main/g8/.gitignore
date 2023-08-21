@@ -1,0 +1,15 @@
+# SBT
+target
+
+# IntelliJ
+.idea
+
+# VSCode
+.vscode
+
+# Metals
+.bloop
+.bsp
+.metals
+metals.sbt
+project/project
