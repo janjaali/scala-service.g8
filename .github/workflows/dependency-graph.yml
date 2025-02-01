@@ -8,10 +8,10 @@ on:
 jobs:
   update-dependency-graph:
     name: Update Dependency Graph
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Submit Dependency Graph
-        uses: scalacenter/sbt-dependency-submission@v2
+        uses: scalacenter/sbt-dependency-submission@v3

@@ -7,8 +7,8 @@ name: Launch Scala Steward
 
 jobs:
   scala-steward:
-    runs-on: ubuntu-latest
     name: Launch Scala Steward
+    runs-on: ubuntu-24.04
     steps:
       - name: Launch Scala Steward
         uses: scala-steward-org/scala-steward-action@v2
