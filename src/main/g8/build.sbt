@@ -14,7 +14,7 @@ lazy val service = (project in file("service"))
     name := "$project_name;format="lower,hyphen"$",
 
     libraryDependencies ++= Seq(
-      // tests
+      // Tests
       "org.scalameta" %% "munit" % "1.1.0" % Test
     )
   )
