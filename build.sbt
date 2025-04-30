@@ -18,6 +18,6 @@ lazy val service = (project in file("."))
     name := "scala-service",
     libraryDependencies ++= Seq(
       // tests
-      "org.scalameta" %% "munit" % "1.1.0" % Test
+      "org.scalameta" %% "munit" % "1.1.1" % Test
     )
   )
